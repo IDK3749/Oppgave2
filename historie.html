@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" type="css" href="styles2.css">
+</head>
+      <meta charset="UTF-8">
+      <nav>
+        <a href="index.html">Forside</a>
+        <a href="book.html">Book et rom</a>
+        <a href="resturant.html">Resturant og meny</a>
+        <a href="historie.html">Om oss</a>
+    </nav>
+      <section class="ting">
+        <h1 class="en">Her kan du lese litt om oss</h1>
+    </div>
+        <div class="to">
+            <p>Vi er stole over å presentere hotellet vårt, som nå har stått ferdigbygd i over 100 år. Vi hoper at vår lange historie innenfor dette har ført til bedre driv av hotellet og at gjestene koser seg. </p>
+        
+        </section>
+       
+    <style>
+            nav{display: flex;
+}
+nav a{
+    text-decoration: none;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    flex: 1;
+}
+
+.ting {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+               grid-auto-rows: minmax(12rem, 2fr);
+    border: 10px solid #404040;
+    background-color:#454545
+}
+
+
+.ting h1 {
+    background-color: #454545;
+    color: white;
+    text-align: center;
+    text-size-adjust: 20px;
+}
+.en {
+   
+    grid-column: span 3;
+    height: fit-content;
+    background-image: url(`hotelll.jpg`);
+  
+}
+.to{
+   background-color: #414141;   
+    background-size: cover;
+    background-position: center center;
+    border: 2px solid black;
+    grid-column: span 3;
+}
+
+    </style>
+    
+           
+         
+        
+            
+       
