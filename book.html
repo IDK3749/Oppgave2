@@ -11,15 +11,36 @@
         <a href="historie.html">Om oss</a>
     </nav>
       <section class="ting">
-        <h1 class="en">Her kan du lese litt om oss</h1>
-    </div>
+        <div class="en"><h1>Book et rom</h1></div>
         <div class="to">
-            <p>Vi er stole over å presentere hotellet vårt, som nå har stått ferdigbygd i over 100 år. Vi hoper at vår lange historie innenfor dette har ført til bedre driv av hotellet og at gjestene koser seg. </p>
+            <form action="register.html">
+                <select name="Velg antall personer " required>
+                <option value="">Velg antall personer</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <select name="Hvor mange rom " required>
+                <option value="">Hvor mange rom</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <select>
+                <input type="date">
+            </select>
+            <button>Videre</button>
+            
+             </form>
         
         </section>
        
     <style>
-            nav{display: flex;
+        nav{display: flex;
 }
 nav a{
     text-decoration: none;
@@ -46,14 +67,14 @@ nav a{
     text-size-adjust: 20px;
 }
 .en {
-   
+    
     grid-column: span 3;
     height: fit-content;
-    background-image: url(`hotelll.jpg`);
+    
   
 }
 .to{
-   background-color: #414141;   
+      background-image: url(pexels-photo-877971.jpeg);
     background-size: cover;
     background-position: center center;
     border: 2px solid black;
